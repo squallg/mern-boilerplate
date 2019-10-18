@@ -1,7 +1,7 @@
 {
-  "name": "demo",
+  "name": "mern-boilerplate",
   "version": "1.0.0",
-  "description": "demo",
+  "description": "MERN stack boilerplate",
   "scripts": {
     "front-end": "npm start --prefix ./front-end",
     "back-end": "nodemon ./back-end/bin/www",
