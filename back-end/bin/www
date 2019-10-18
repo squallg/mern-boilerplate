@@ -21,7 +21,7 @@ app.set('port', port);
  * Get database address
  */
 
-var database = process.env.DB || 'mongodb://localhost:27017/' + package.name;
+var database = process.env.DB || 'mongodb://localhost:27017/cacaprout';
 
 /**
  * Create HTTP server.

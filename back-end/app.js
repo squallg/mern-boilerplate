@@ -9,6 +9,7 @@ var cors = require('./middlewares/cors');
 
 /* Import routes */
 var indexRouter = require('./routes/index');
+var usersRouter = require('./routes/users');
 
 /* Create app */
 var app = express();
@@ -33,5 +34,6 @@ app.use((req, res, next) => {
 
 /* Routes */
 app.use('/', indexRouter);
+app.use('/users', usersRouter);
 
 module.exports = app;
